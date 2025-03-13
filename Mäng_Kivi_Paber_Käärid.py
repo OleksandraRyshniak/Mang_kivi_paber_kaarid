@@ -51,7 +51,7 @@ while True:
                                 print(f"Счёт - {score["Player"]}  {score["Robot"]}")
                         elif player=="с другом": 
                             my_list1=input("Первый игрок вводит свой список (например: ['бумага', 'ножницы', ... ]): ")
-                            print("\n" * 100)
+                            os.system("cls")
                             my_list2=input("Второй игрок вводит свой список (например: ['бумага', 'ножницы', ... ]): ")
                             os.system('cls' if os.name == 'nt' else 'clear')
                             for i in range (rounds):
